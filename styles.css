@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    /* margin: 0;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.information-column {
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.information-column hr {
+    border: none;
+    border-bottom: 1px solid #973549;
+    margin-top: 18px;
+}
+
+.information-column img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #973549;
+    margin-bottom: 18px;
+}
+
+.information-column h3 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.information-column ul {
+    list-style-type: none;
+}
+
+.information-column li {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.contact-description a {
+    text-decoration: none;
+    color:  #fff;
+}
+
+.contact-description i {
+    color: #973549;
+    margin-right: 10px;
+}
+
+.education-descripition {
+    margin-top: 32px;
+}
+
+.education-descripition p {
+    color: #973549;
+}
+
+.language-description .percent {
+    height: 6px;
+    background-color: #973549;
+    margin-top: 5px;
+}
+
+.language-description .percent div {
+    height: 6px;
+    background-color: #DABBB5;
+}

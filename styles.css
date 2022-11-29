@@ -7,11 +7,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-    /* margin: 0;
-    margin-left: auto;
-    margin-right: auto; */
-}
+/* .container {
+    display: flex;
+} */
 
 .information-column {
     padding: 40px;
@@ -70,9 +68,57 @@
     height: 6px;
     background-color: #973549;
     margin-top: 5px;
+    width: 205px;
 }
 
 .language-description .percent div {
     height: 6px;
     background-color: #DABBB5;
+}
+
+.language-description .percent.spanish div {
+    width: 85%;
+}
+
+.language-description .percent.english div {
+    width: 40%;
+}
+
+.experiences-column {
+    background-color: #fff;
+    padding: 40px;
+    color: #000;
+}
+
+.experiences-column section {
+    margin-bottom: 30px;
+}
+
+.experiences-column h2 {
+    margin-bottom: 15px;
+}
+
+/* .experiences-column .experience {
+    margin-left: px;
+} */
+
+.experiences-column a {
+    font-weight: bold;
+    text-decoration: none;
+    color:  #000;
+}
+
+.experiences-column .last-date {
+    text-align: right;
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+    }
+    .information-column img {
+        width: 200px;
+        height: 200px;
+    }
 }

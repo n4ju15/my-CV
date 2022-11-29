@@ -98,9 +98,9 @@
     margin-bottom: 15px;
 }
 
-/* .experiences-column .experience {
-    margin-left: px;
-} */
+.experiences-column .experience {
+    margin-left: 14px;
+}
 
 .experiences-column a {
     font-weight: bold;
@@ -120,5 +120,11 @@
     .information-column img {
         width: 200px;
         height: 200px;
+    }
+    .experiences-column .experience {
+        display: flex;
+    }
+    .experience-date {
+        width: 300px;
     }
 }

@@ -1,4 +1,18 @@
 # My-CV
-Este repositório contém o projeto My-CV.
-O My-Cv tem a finalidade de funcionar como um currículo online possibilitando que seja visualizado na Web ou podendo ser feito o download e disponibilizado como PDF.
 
+Site do meu currículo online. Desenvolvido com HTML e CSS e abordando conceitos de responsividade.
+
+🔗 [Click here to access](https://n4ju15.github.io/my-CV/)
+
+<!-- ![screenshot](images/read.me.mylinks.png) -->
+
+## Tecnologias
+
+- HTML
+- CSS
+- Git and Github
+
+ ## Conceitos
+
+- Responsividade
+- Mobile First

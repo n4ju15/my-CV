@@ -48,7 +48,7 @@
 
 .contact-description a {
     text-decoration: none;
-    color:  #fff;
+    color: #fff;
 }
 
 .contact-description i {
@@ -105,7 +105,7 @@
 .experiences-column a {
     font-weight: bold;
     text-decoration: none;
-    color:  #000;
+    color: #000;
 }
 
 .experiences-column .last-date {
@@ -117,13 +117,38 @@
     .container {
         display: flex;
     }
+
     .information-column img {
         width: 200px;
         height: 200px;
     }
+
+    .experiences-column h2 {
+        margin-bottom: 15px;
+        word-spacing: 8px
+    }
+
     .experiences-column .experience {
         display: flex;
+        word-spacing: 5px;
     }
+
+    .experience-date {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 120px;
+        width: 175px;
+    }
+
+    .experience-text {
+        display: block;
+        height: 150px;
+        width: 100%;
+        margin: 20px;
+    }
+
     .experience-date {
         width: 300px;
     }

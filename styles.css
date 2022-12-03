@@ -92,6 +92,7 @@
 
 .experiences-column section {
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .experiences-column h2 {
@@ -100,6 +101,7 @@
 
 .experiences-column .experience {
     margin-left: 14px;
+    text-align: justify;
 }
 
 .experiences-column a {
@@ -125,12 +127,18 @@
 
     .experiences-column h2 {
         margin-bottom: 15px;
-        word-spacing: 8px
+        text-align: justify;
+        /* word-spacing: 8px; */
+    }
+
+    .experiences-column {
+        width: 100%;
     }
 
     .experiences-column .experience {
         display: flex;
-        word-spacing: 5px;
+        text-align: justify;
+        /* word-spacing: 8px; */
     }
 
     .experience-date {
@@ -144,9 +152,14 @@
 
     .experience-text {
         display: block;
-        height: 150px;
+        /* height: 150px; */
         width: 100%;
         margin: 20px;
+    }
+
+    .projects {
+        text-align: justify;
+        /* word-spacing: 8px; */
     }
 
     .experience-date {

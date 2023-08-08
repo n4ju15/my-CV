@@ -65,23 +65,40 @@
 }
 
 .language-description .percent {
+    border-radius: 3px;
     height: 6px;
-    background-color: #973549;
+    background-color: #DABBB5;
     margin-top: 5px;
     width: 205px;
 }
 
 .language-description .percent div {
+    border-radius: 3px;
     height: 6px;
-    background-color: #DABBB5;
+    background-color: #973549;
 }
-
 .language-description .percent.spanish div {
-    width: 85%;
+    width: 95%;
 }
 
 .language-description .percent.english div {
     width: 40%;
+}
+
+.language-description .percent.css div {
+    width: 90%;
+}
+
+.language-description .percent.js div {
+    width: 65%;
+}
+
+.language-description .percent.react div {
+    width: 35%;
+}
+
+.language-description .percent.node div {
+    width: 35%;
 }
 
 .experiences-column {
@@ -165,4 +182,8 @@
     .experience-date {
         width: 300px;
     }
+}
+
+.projects h2, p {
+    padding: .3rem;
 }

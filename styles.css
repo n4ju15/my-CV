@@ -77,6 +77,7 @@
     height: 6px;
     background-color: #973549;
 }
+
 .language-description .percent.spanish div {
     width: 95%;
 }
@@ -85,20 +86,42 @@
     width: 40%;
 }
 
-.language-description .percent.css div {
+.skills-description .percent {
+    border-radius: 3px;
+    height: 6px;
+    background-color: #DABBB5;
+    margin-top: 5px;
+    width: 205px;
+}
+
+.skills-description .percent div {
+    border-radius: 3px;
+    height: 6px;
+    background-color: #973549;
+}
+
+.skills-description .percent.css div {
     width: 90%;
 }
 
-.language-description .percent.js div {
+.skills-description .percent.js div {
     width: 65%;
 }
 
-.language-description .percent.react div {
+.skills-description .percent.react div {
     width: 35%;
 }
 
-.language-description .percent.node div {
+.skills-description .percent.node div {
     width: 35%;
+}
+
+.skills-description .percent.git div {
+    width: 100%;
+}
+
+.skills-description .percent.github div {
+    width: 100%;
 }
 
 .experiences-column {
@@ -117,8 +140,13 @@
 }
 
 .experiences-column .experience {
-    margin-left: 14px;
+    margin-left: 14px;   
     text-align: justify;
+}
+
+.experiences-column .experience-date {
+    /*background-color: #973549;*/
+    padding-top: 1.4rem;
 }
 
 .experiences-column a {
@@ -158,6 +186,11 @@
         /* word-spacing: 8px; */
     }
 
+    .experiences-column .experience-date {
+        /*background-color: #973549;*/
+        padding-top: 1.4rem;
+    }
+
     .experience-date {
         display: flex;
         align-items: flex-start;
@@ -176,6 +209,7 @@
 
     .projects {
         text-align: justify;
+        padding: .3rem;
         /* word-spacing: 8px; */
     }
 

@@ -4,7 +4,7 @@ Site do meu currículo online. Desenvolvido com HTML e CSS e abordando conceitos
 
 🔗 [Click here to access](https://n4ju15.github.io/my-CV/)
 
-![screenshot](images/readme.png)
+![screenshot](./images/readme.png)
 
 ## Tecnologias
 
